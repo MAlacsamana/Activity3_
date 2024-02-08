@@ -1,0 +1,29 @@
+<html lang="en">
+
+<head>
+    <title>Login</title>
+    <script>
+        console.log("Hello World");
+        let buttonLogin = document.querySelector('#btnlogin');
+        buttonLogin.onclick = function () {
+            alert("Login Successfully.")
+        };
+    </script>
+</head>
+
+<body>
+    <div style="text-align: center;">
+        <h1>Login</h1>
+        <input type="text" placeholder="Username" id="txtUsername" onkeyup="alert(this.value)" value="Sample value">
+        <input type="text" placeholder="Password" id="txtPassword">
+        <div style="margin-top: 1rem;">
+            <button id="btnLogin" onclick="alert('Login Successfully.')">Login</button>
+    </div>
+        </div>        
+</body>
+
+
+
+
+
+</html>
